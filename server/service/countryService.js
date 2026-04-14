@@ -3,18 +3,38 @@ const countriesData = require(
   path.join(__dirname, "../../src/data/countries.json"),
 );
 
+const normalizeString = (value = "") => String(value).trim().toLowerCase();
+
 const getFallbackTitle = (code, name) => {
   if (name) return name;
-  if (code) return code.toUpperCase();
+  if (code) return String(code).toUpperCase();
   return "Nazione selezionata";
 };
 
-const fetchCountryDetails = async (code, name) => {
-  const normalizedCode = String(code || "")
-    .trim()
-    .toLowerCase();
+const findCountryByName = (name) => {
+  const normalizedName = normalizeString(name);
 
-  const localCountry = countriesData[normalizedCode];
+  const entry = Object.entries(countriesData).find(([, country]) => {
+    const countryName = normalizeString(country?.name);
+
+    return (
+      countryName === normalizedName ||
+      normalizedName.includes(countryName) ||
+      countryName.includes(normalizedName)
+    );
+  });
+
+  return entry ? entry[1] : null;
+};
+
+const fetchCountryDetails = async (code, name) => {
+  const normalizedCode = normalizeString(code);
+
+  let localCountry = normalizedCode ? countriesData[normalizedCode] : null;
+
+  if (!localCountry && name) {
+    localCountry = findCountryByName(name);
+  }
 
   if (!localCountry) {
     return {
@@ -28,7 +48,9 @@ const fetchCountryDetails = async (code, name) => {
   return {
     title: localCountry.name || getFallbackTitle(code, name),
     description: localCountry.description || "Descrizione non disponibile.",
-    image: localCountry.images?.[0] || "",
+    image: Array.isArray(localCountry.images)
+      ? localCountry.images[0] || ""
+      : "",
     images: Array.isArray(localCountry.images) ? localCountry.images : [],
   };
 };

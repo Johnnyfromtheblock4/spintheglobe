@@ -1,6 +1,14 @@
 {
-  "af": { "name": "Afghanistan", "description": "", "images": [] },
-  "al": { "name": "Albania", "description": "", "images": [] },
+  "af": {
+    "name": "Afghanistan",
+    "description": "",
+    "images": ["/images/countries/af/1.png", "/images/countries/af/2.png"]
+  },
+  "al": {
+    "name": "Albania",
+    "description": "",
+    "images": ["/images/countries/al/1.png", "/images/countries/al/2.png"]
+  },
   "dz": { "name": "Algeria", "description": "", "images": [] },
   "ad": { "name": "Andorra", "description": "", "images": [] },
   "ao": { "name": "Angola", "description": "", "images": [] },
@@ -186,9 +194,17 @@
   "sk": { "name": "Slovacchia", "description": "", "images": [] },
   "si": { "name": "Slovenia", "description": "", "images": [] },
   "so": { "name": "Somalia", "description": "", "images": [] },
-  "es": { "name": "Spagna", "description": "", "images": [] },
+  "es": {
+    "name": "Spagna",
+    "description": "",
+    "images": []
+  },
   "lk": { "name": "Sri Lanka", "description": "", "images": [] },
-  "us": { "name": "Stati Uniti", "description": "", "images": [] },
+  "us": {
+    "name": "Stati Uniti",
+    "description": "",
+    "images": ["/images/countries/us/1.png", "/images/countries/us/2.png"]
+  },
   "za": { "name": "Sudafrica", "description": "", "images": [] },
   "sd": { "name": "Sudan", "description": "", "images": [] },
   "ss": { "name": "Sudan del Sud", "description": "", "images": [] },
