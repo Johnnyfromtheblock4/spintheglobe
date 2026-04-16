@@ -12,15 +12,35 @@ const HomePage = () => {
   const [showModal, setShowModal] = useState(false);
   const [pin, setPin] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [hasSelection, setHasSelection] = useState(false);
+
+  const resetSelection = () => {
+    setSelectedCountry(null);
+    setSelectedCountryName("");
+    setPin(null);
+    setShowModal(false);
+    setLoading(false);
+    setHasSelection(false);
+  };
 
   const handleSpin = () => {
+    if (hasSelection) {
+      setSelectedCountry(null);
+      setSelectedCountryName("");
+      setPin(null);
+      setShowModal(false);
+      setLoading(false);
+      setHasSelection(false);
+      setIsSpinning(true);
+      return;
+    }
+
     setIsSpinning((prev) => !prev);
   };
 
   const handleCountryClick = async ({ countryName, countryCode, lat, lng }) => {
     try {
       setLoading(true);
-
       setIsSpinning(false);
       setSelectedCountryName(countryName || "");
       setPin({ lat, lng });
@@ -29,6 +49,7 @@ const HomePage = () => {
 
       setSelectedCountry(countryData);
       setShowModal(true);
+      setHasSelection(true);
     } catch (error) {
       console.error("Errore nel recupero dati nazione:", error);
 
@@ -41,8 +62,18 @@ const HomePage = () => {
       });
 
       setShowModal(true);
+      setHasSelection(true);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+    setIsSpinning(false);
+
+    if (selectedCountryName || pin || selectedCountry) {
+      setHasSelection(true);
     }
   };
 
@@ -67,7 +98,11 @@ const HomePage = () => {
               />
 
               <div className="d-flex justify-content-center mt-4">
-                <SpinButton isSpinning={isSpinning} onClick={handleSpin} />
+                <SpinButton
+                  isSpinning={isSpinning}
+                  hasSelection={hasSelection}
+                  onClick={handleSpin}
+                />
               </div>
 
               {loading && (
@@ -80,7 +115,7 @@ const HomePage = () => {
 
       <CountryModal
         show={showModal}
-        onHide={() => setShowModal(false)}
+        onHide={handleCloseModal}
         country={selectedCountry}
       />
     </div>
