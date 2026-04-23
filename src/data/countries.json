@@ -1,125 +1,482 @@
 {
-  "af": {
-    "name": "Afghanistan",
-    "description": "",
-    "images": ["/images/countries/af/1.png", "/images/countries/af/2.png"]
+  "dz": {
+    "name": "Algeria",
+    "description": "Algeria is a country located in Africa, known for its Sahara Desert and Mediterranean coastline.\n\nFrom its natural landscapes to its historic cities and local traditions, Algeria offers a unique identity shaped by geography, culture, and history.\n\nCapital: Algiers\nRegion: Africa\nPopulation: Over 45 million inhabitants.",
+    "images": ["/images/countries/dz/1.png", "/images/countries/dz/2.png"]
   },
-  "al": {
-    "name": "Albania",
-    "description": "",
-    "images": ["/images/countries/al/1.png", "/images/countries/al/2.png"]
+  "ad": {
+    "name": "Andorra",
+    "description": "Andorra is a country located in Europe, known for its Pyrenees mountain valleys.\n\nFrom its natural landscapes to its historic cities and local traditions, Andorra offers a unique identity shaped by geography, culture, and history.\n\nCapital: Andorra la Vella\nRegion: Europe\nPopulation: Around 80,000 inhabitants.",
+    "images": ["/images/countries/ad/1.png", "/images/countries/ad/2.png"]
   },
-  "dz": { "name": "Algeria", "description": "", "images": [] },
-  "ad": { "name": "Andorra", "description": "", "images": [] },
-  "ao": { "name": "Angola", "description": "", "images": [] },
-  "ag": { "name": "Antigua and Barbuda", "description": "", "images": [] },
-  "sa": { "name": "Saudi Arabia", "description": "", "images": [] },
-  "ar": { "name": "Argentina", "description": "", "images": [] },
-  "am": { "name": "Armenia", "description": "", "images": [] },
-  "au": { "name": "Australia", "description": "", "images": [] },
-  "at": { "name": "Austria", "description": "", "images": [] },
-  "az": { "name": "Azerbaijan", "description": "", "images": [] },
-
-  "bs": { "name": "Bahamas", "description": "", "images": [] },
-  "bh": { "name": "Bahrain", "description": "", "images": [] },
-  "bd": { "name": "Bangladesh", "description": "", "images": [] },
-  "bb": { "name": "Barbados", "description": "", "images": [] },
-  "be": { "name": "Belgium", "description": "", "images": [] },
-  "bz": { "name": "Belize", "description": "", "images": [] },
-  "bj": { "name": "Benin", "description": "", "images": [] },
-  "bt": { "name": "Bhutan", "description": "", "images": [] },
-  "by": { "name": "Belarus", "description": "", "images": [] },
-  "bo": { "name": "Bolivia", "description": "", "images": [] },
-  "ba": { "name": "Bosnia and Herzegovina", "description": "", "images": [] },
-  "bw": { "name": "Botswana", "description": "", "images": [] },
-  "br": { "name": "Brazil", "description": "", "images": [] },
-  "bn": { "name": "Brunei", "description": "", "images": [] },
-  "bg": { "name": "Bulgaria", "description": "", "images": [] },
-  "bf": { "name": "Burkina Faso", "description": "", "images": [] },
-  "bi": { "name": "Burundi", "description": "", "images": [] },
-
-  "cv": { "name": "Cape Verde", "description": "", "images": [] },
-  "kh": { "name": "Cambodia", "description": "", "images": [] },
-  "cm": { "name": "Cameroon", "description": "", "images": [] },
-  "ca": { "name": "Canada", "description": "", "images": [] },
-  "td": { "name": "Chad", "description": "", "images": [] },
-  "cl": { "name": "Chile", "description": "", "images": [] },
-  "cn": { "name": "China", "description": "", "images": [] },
-  "cy": { "name": "Cyprus", "description": "", "images": [] },
-  "co": { "name": "Colombia", "description": "", "images": [] },
-  "km": { "name": "Comoros", "description": "", "images": [] },
-  "cg": { "name": "Congo", "description": "", "images": [] },
-  "kp": { "name": "North Korea", "description": "", "images": [] },
-  "kr": { "name": "South Korea", "description": "", "images": [] },
-  "ci": { "name": "Ivory Coast", "description": "", "images": [] },
-  "cr": { "name": "Costa Rica", "description": "", "images": [] },
-  "hr": { "name": "Croatia", "description": "", "images": [] },
-  "cu": { "name": "Cuba", "description": "", "images": [] },
-
-  "dk": { "name": "Denmark", "description": "", "images": [] },
-  "dm": { "name": "Dominica", "description": "", "images": [] },
-  "do": { "name": "Dominican Republic", "description": "", "images": [] },
-
-  "ec": { "name": "Ecuador", "description": "", "images": [] },
-  "eg": { "name": "Egypt", "description": "", "images": [] },
-  "sv": { "name": "El Salvador", "description": "", "images": [] },
-  "ae": { "name": "United Arab Emirates", "description": "", "images": [] },
-  "er": { "name": "Eritrea", "description": "", "images": [] },
-  "ee": { "name": "Estonia", "description": "", "images": [] },
-  "sz": { "name": "Eswatini", "description": "", "images": [] },
-  "et": { "name": "Ethiopia", "description": "", "images": [] },
-
-  "fj": { "name": "Fiji", "description": "", "images": [] },
-  "ph": { "name": "Philippines", "description": "", "images": [] },
-  "fi": { "name": "Finland", "description": "", "images": [] },
-  "fr": { "name": "France", "description": "", "images": [] },
-
-  "de": { "name": "Germany", "description": "", "images": [] },
-  "gh": { "name": "Ghana", "description": "", "images": [] },
-  "jm": { "name": "Jamaica", "description": "", "images": [] },
-  "jp": { "name": "Japan", "description": "", "images": [] },
-  "jo": { "name": "Jordan", "description": "", "images": [] },
-  "gr": { "name": "Greece", "description": "", "images": [] },
-
-  "in": { "name": "India", "description": "", "images": [] },
-  "id": { "name": "Indonesia", "description": "", "images": [] },
-  "ir": { "name": "Iran", "description": "", "images": [] },
-  "iq": { "name": "Iraq", "description": "", "images": [] },
-  "ie": { "name": "Ireland", "description": "", "images": [] },
-  "is": { "name": "Iceland", "description": "", "images": [] },
-  "il": { "name": "Israel", "description": "", "images": [] },
-  "it": { "name": "Italy", "description": "", "images": [] },
-
-  "mx": { "name": "Mexico", "description": "", "images": [] },
-  "nl": { "name": "Netherlands", "description": "", "images": [] },
-  "no": { "name": "Norway", "description": "", "images": [] },
-  "nz": { "name": "New Zealand", "description": "", "images": [] },
-
-  "pl": { "name": "Poland", "description": "", "images": [] },
-  "pt": { "name": "Portugal", "description": "", "images": [] },
-
-  "gb": { "name": "United Kingdom", "description": "", "images": [] },
-  "ro": { "name": "Romania", "description": "", "images": [] },
-  "ru": { "name": "Russia", "description": "", "images": [] },
-
-  "es": { "name": "Spain", "description": "", "images": [] },
-  "se": { "name": "Sweden", "description": "", "images": [] },
-  "ch": { "name": "Switzerland", "description": "", "images": [] },
-
-  "tr": { "name": "Turkey", "description": "", "images": [] },
-
-  "ua": { "name": "Ukraine", "description": "", "images": [] },
-  "uy": { "name": "Uruguay", "description": "", "images": [] },
+  "ao": {
+    "name": "Angola",
+    "description": "Angola is a country located in Africa, known for its Atlantic coast and highland landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Angola offers a unique identity shaped by geography, culture, and history.\n\nCapital: Luanda\nRegion: Africa\nPopulation: Over 36 million inhabitants.",
+    "images": ["/images/countries/ao/1.png", "/images/countries/ao/2.png"]
+  },
+  "ag": {
+    "name": "Antigua and Barbuda",
+    "description": "Antigua and Barbuda is a country located in North America, known for its Caribbean beaches and coral islands.\n\nFrom its natural landscapes to its historic cities and local traditions, Antigua and Barbuda offers a unique identity shaped by geography, culture, and history.\n\nCapital: St. John's\nRegion: North America\nPopulation: Around 100,000 inhabitants.",
+    "images": ["/images/countries/ag/1.png", "/images/countries/ag/2.png"]
+  },
+  "sa": {
+    "name": "Saudi Arabia",
+    "description": "Saudi Arabia is a country located in Asia, known for its deserts, historic cities, and Red Sea coast.\n\nFrom its natural landscapes to its historic cities and local traditions, Saudi Arabia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Riyadh\nRegion: Asia\nPopulation: Over 36 million inhabitants.",
+    "images": ["/images/countries/sa/1.png", "/images/countries/sa/2.png"]
+  },
+  "ar": {
+    "name": "Argentina",
+    "description": "Argentina is a country located in South America, known for its Patagonia, Andes, and pampas.\n\nFrom its natural landscapes to its historic cities and local traditions, Argentina offers a unique identity shaped by geography, culture, and history.\n\nCapital: Buenos Aires\nRegion: South America\nPopulation: Over 45 million inhabitants.",
+    "images": ["/images/countries/ar/1.png", "/images/countries/ar/2.png"]
+  },
+  "am": {
+    "name": "Armenia",
+    "description": "Armenia is a country located in Asia, known for its ancient monasteries and Caucasus mountains.\n\nFrom its natural landscapes to its historic cities and local traditions, Armenia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Yerevan\nRegion: Asia\nPopulation: Around 3 million inhabitants.",
+    "images": ["/images/countries/am/1.png", "/images/countries/am/2.png"]
+  },
+  "au": {
+    "name": "Australia",
+    "description": "Australia is a country located in Oceania, known for its outback, reefs, and coastal cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Australia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Canberra\nRegion: Oceania\nPopulation: Over 26 million inhabitants.",
+    "images": ["/images/countries/au/1.png", "/images/countries/au/2.png"]
+  },
+  "at": {
+    "name": "Austria",
+    "description": "Austria is a country located in Europe, known for its Alpine landscapes and imperial cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Austria offers a unique identity shaped by geography, culture, and history.\n\nCapital: Vienna\nRegion: Europe\nPopulation: Around 9 million inhabitants.",
+    "images": ["/images/countries/at/1.png", "/images/countries/at/2.png"]
+  },
+  "az": {
+    "name": "Azerbaijan",
+    "description": "Azerbaijan is a country located in Asia, known for its Caspian coastline and Caucasus mountains.\n\nFrom its natural landscapes to its historic cities and local traditions, Azerbaijan offers a unique identity shaped by geography, culture, and history.\n\nCapital: Baku\nRegion: Asia\nPopulation: Over 10 million inhabitants.",
+    "images": ["/images/countries/az/1.png", "/images/countries/az/2.png"]
+  },
+  "bs": {
+    "name": "Bahamas",
+    "description": "Bahamas is a country located in North America, known for its turquoise waters and coral islands.\n\nFrom its natural landscapes to its historic cities and local traditions, Bahamas offers a unique identity shaped by geography, culture, and history.\n\nCapital: Nassau\nRegion: North America\nPopulation: Around 400,000 inhabitants.",
+    "images": ["/images/countries/bs/1.png", "/images/countries/bs/2.png"]
+  },
+  "bh": {
+    "name": "Bahrain",
+    "description": "Bahrain is a country located in Asia, known for its island skylines and Gulf heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Bahrain offers a unique identity shaped by geography, culture, and history.\n\nCapital: Manama\nRegion: Asia\nPopulation: Around 1.5 million inhabitants.",
+    "images": ["/images/countries/bh/1.png", "/images/countries/bh/2.png"]
+  },
+  "bd": {
+    "name": "Bangladesh",
+    "description": "Bangladesh is a country located in Asia, known for its river deltas and vibrant cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Bangladesh offers a unique identity shaped by geography, culture, and history.\n\nCapital: Dhaka\nRegion: Asia\nPopulation: Over 170 million inhabitants.",
+    "images": ["/images/countries/bd/1.png", "/images/countries/bd/2.png"]
+  },
+  "bb": {
+    "name": "Barbados",
+    "description": "Barbados is a country located in North America, known for its Caribbean beaches and colonial heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Barbados offers a unique identity shaped by geography, culture, and history.\n\nCapital: Bridgetown\nRegion: North America\nPopulation: Around 280,000 inhabitants.",
+    "images": ["/images/countries/bb/1.png", "/images/countries/bb/2.png"]
+  },
+  "be": {
+    "name": "Belgium",
+    "description": "Belgium is a country located in Europe, known for its historic towns, canals, and European institutions.\n\nFrom its natural landscapes to its historic cities and local traditions, Belgium offers a unique identity shaped by geography, culture, and history.\n\nCapital: Brussels\nRegion: Europe\nPopulation: Over 11 million inhabitants.",
+    "images": ["/images/countries/be/1.png", "/images/countries/be/2.png"]
+  },
+  "bz": {
+    "name": "Belize",
+    "description": "Belize is a country located in North America, known for its Maya sites, rainforest, and barrier reef.\n\nFrom its natural landscapes to its historic cities and local traditions, Belize offers a unique identity shaped by geography, culture, and history.\n\nCapital: Belmopan\nRegion: North America\nPopulation: Around 400,000 inhabitants.",
+    "images": ["/images/countries/bz/1.png", "/images/countries/bz/2.png"]
+  },
+  "bj": {
+    "name": "Benin",
+    "description": "Benin is a country located in Africa, known for its coastal culture and West African heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Benin offers a unique identity shaped by geography, culture, and history.\n\nCapital: Porto-Novo\nRegion: Africa\nPopulation: Over 13 million inhabitants.",
+    "images": ["/images/countries/bj/1.png", "/images/countries/bj/2.png"]
+  },
+  "bt": {
+    "name": "Bhutan",
+    "description": "Bhutan is a country located in Asia, known for its Himalayan valleys and Buddhist monasteries.\n\nFrom its natural landscapes to its historic cities and local traditions, Bhutan offers a unique identity shaped by geography, culture, and history.\n\nCapital: Thimphu\nRegion: Asia\nPopulation: Around 800,000 inhabitants.",
+    "images": ["/images/countries/bt/1.png", "/images/countries/bt/2.png"]
+  },
+  "by": {
+    "name": "Belarus",
+    "description": "Belarus is a country located in Europe, known for its forests, lakes, and historic cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Belarus offers a unique identity shaped by geography, culture, and history.\n\nCapital: Minsk\nRegion: Europe\nPopulation: Around 9 million inhabitants.",
+    "images": ["/images/countries/by/1.png", "/images/countries/by/2.png"]
+  },
+  "bo": {
+    "name": "Bolivia",
+    "description": "Bolivia is a country located in South America, known for its Andes, salt flats, and highland culture.\n\nFrom its natural landscapes to its historic cities and local traditions, Bolivia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Sucre\nRegion: South America\nPopulation: Over 12 million inhabitants.",
+    "images": ["/images/countries/bo/1.png", "/images/countries/bo/2.png"]
+  },
+  "ba": {
+    "name": "Bosnia and Herzegovina",
+    "description": "Bosnia and Herzegovina is a country located in Europe, known for its mountains, rivers, and Ottoman-era towns.\n\nFrom its natural landscapes to its historic cities and local traditions, Bosnia and Herzegovina offers a unique identity shaped by geography, culture, and history.\n\nCapital: Sarajevo\nRegion: Europe\nPopulation: Around 3.2 million inhabitants.",
+    "images": ["/images/countries/ba/1.png", "/images/countries/ba/2.png"]
+  },
+  "bw": {
+    "name": "Botswana",
+    "description": "Botswana is a country located in Africa, known for its Okavango Delta and Kalahari landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Botswana offers a unique identity shaped by geography, culture, and history.\n\nCapital: Gaborone\nRegion: Africa\nPopulation: Around 2.6 million inhabitants.",
+    "images": ["/images/countries/bw/1.png", "/images/countries/bw/2.png"]
+  },
+  "br": {
+    "name": "Brazil",
+    "description": "Brazil is a country located in South America, known for its Amazon rainforest, beaches, and lively cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Brazil offers a unique identity shaped by geography, culture, and history.\n\nCapital: Brasília\nRegion: South America\nPopulation: Over 210 million inhabitants.",
+    "images": ["/images/countries/br/1.png", "/images/countries/br/2.png"]
+  },
+  "bn": {
+    "name": "Brunei",
+    "description": "Brunei is a country located in Asia, known for its rainforest, mosques, and Borneo heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Brunei offers a unique identity shaped by geography, culture, and history.\n\nCapital: Bandar Seri Begawan\nRegion: Asia\nPopulation: Around 450,000 inhabitants.",
+    "images": ["/images/countries/bn/1.png", "/images/countries/bn/2.png"]
+  },
+  "bg": {
+    "name": "Bulgaria",
+    "description": "Bulgaria is a country located in Europe, known for its Black Sea coast and Balkan mountains.\n\nFrom its natural landscapes to its historic cities and local traditions, Bulgaria offers a unique identity shaped by geography, culture, and history.\n\nCapital: Sofia\nRegion: Europe\nPopulation: Around 6.5 million inhabitants.",
+    "images": ["/images/countries/bg/1.png", "/images/countries/bg/2.png"]
+  },
+  "bf": {
+    "name": "Burkina Faso",
+    "description": "Burkina Faso is a country located in Africa, known for its Sahel landscapes and rich cultural traditions.\n\nFrom its natural landscapes to its historic cities and local traditions, Burkina Faso offers a unique identity shaped by geography, culture, and history.\n\nCapital: Ouagadougou\nRegion: Africa\nPopulation: Over 23 million inhabitants.",
+    "images": ["/images/countries/bf/1.png", "/images/countries/bf/2.png"]
+  },
+  "bi": {
+    "name": "Burundi",
+    "description": "Burundi is a country located in Africa, known for its green hills and Lake Tanganyika shores.\n\nFrom its natural landscapes to its historic cities and local traditions, Burundi offers a unique identity shaped by geography, culture, and history.\n\nCapital: Gitega\nRegion: Africa\nPopulation: Over 13 million inhabitants.",
+    "images": ["/images/countries/bi/1.png", "/images/countries/bi/2.png"]
+  },
+  "cv": {
+    "name": "Cape Verde",
+    "description": "Cape Verde is a country located in Africa, known for its Atlantic islands and volcanic landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Cape Verde offers a unique identity shaped by geography, culture, and history.\n\nCapital: Praia\nRegion: Africa\nPopulation: Around 600,000 inhabitants.",
+    "images": ["/images/countries/cv/1.png", "/images/countries/cv/2.png"]
+  },
+  "kh": {
+    "name": "Cambodia",
+    "description": "Cambodia is a country located in Asia, known for its temples, rivers, and tropical countryside.\n\nFrom its natural landscapes to its historic cities and local traditions, Cambodia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Phnom Penh\nRegion: Asia\nPopulation: Over 17 million inhabitants.",
+    "images": ["/images/countries/kh/1.png", "/images/countries/kh/2.png"]
+  },
+  "cm": {
+    "name": "Cameroon",
+    "description": "Cameroon is a country located in Africa, known for its rainforests, mountains, and Atlantic coast.\n\nFrom its natural landscapes to its historic cities and local traditions, Cameroon offers a unique identity shaped by geography, culture, and history.\n\nCapital: Yaoundé\nRegion: Africa\nPopulation: Over 28 million inhabitants.",
+    "images": ["/images/countries/cm/1.png", "/images/countries/cm/2.png"]
+  },
+  "ca": {
+    "name": "Canada",
+    "description": "Canada is a country located in North America, known for its vast forests, lakes, mountains, and multicultural cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Canada offers a unique identity shaped by geography, culture, and history.\n\nCapital: Ottawa\nRegion: North America\nPopulation: Over 40 million inhabitants.",
+    "images": ["/images/countries/ca/1.png", "/images/countries/ca/2.png"]
+  },
+  "td": {
+    "name": "Chad",
+    "description": "Chad is a country located in Africa, known for its Sahara landscapes and Sahel culture.\n\nFrom its natural landscapes to its historic cities and local traditions, Chad offers a unique identity shaped by geography, culture, and history.\n\nCapital: N'Djamena\nRegion: Africa\nPopulation: Over 18 million inhabitants.",
+    "images": ["/images/countries/td/1.png", "/images/countries/td/2.png"]
+  },
+  "cl": {
+    "name": "Chile",
+    "description": "Chile is a country located in South America, known for its Atacama Desert, Andes, and Pacific coastline.\n\nFrom its natural landscapes to its historic cities and local traditions, Chile offers a unique identity shaped by geography, culture, and history.\n\nCapital: Santiago\nRegion: South America\nPopulation: Over 19 million inhabitants.",
+    "images": ["/images/countries/cl/1.png", "/images/countries/cl/2.png"]
+  },
+  "cn": {
+    "name": "China",
+    "description": "China is a country located in Asia, known for its ancient heritage, megacities, and dramatic landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, China offers a unique identity shaped by geography, culture, and history.\n\nCapital: Beijing\nRegion: Asia\nPopulation: Over 1.4 billion inhabitants.",
+    "images": ["/images/countries/cn/1.png", "/images/countries/cn/2.png"]
+  },
+  "cy": {
+    "name": "Cyprus",
+    "description": "Cyprus is a country located in Europe, known for its Mediterranean beaches and ancient ruins.\n\nFrom its natural landscapes to its historic cities and local traditions, Cyprus offers a unique identity shaped by geography, culture, and history.\n\nCapital: Nicosia\nRegion: Europe\nPopulation: Around 1.2 million inhabitants.",
+    "images": ["/images/countries/cy/1.png", "/images/countries/cy/2.png"]
+  },
+  "co": {
+    "name": "Colombia",
+    "description": "Colombia is a country located in South America, known for its Andes, Caribbean coast, rainforest, and coffee regions.\n\nFrom its natural landscapes to its historic cities and local traditions, Colombia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Bogotá\nRegion: South America\nPopulation: Over 52 million inhabitants.",
+    "images": ["/images/countries/co/1.png", "/images/countries/co/2.png"]
+  },
+  "km": {
+    "name": "Comoros",
+    "description": "Comoros is a country located in Africa, known for its Indian Ocean islands and volcanic scenery.\n\nFrom its natural landscapes to its historic cities and local traditions, Comoros offers a unique identity shaped by geography, culture, and history.\n\nCapital: Moroni\nRegion: Africa\nPopulation: Around 900,000 inhabitants.",
+    "images": ["/images/countries/km/1.png", "/images/countries/km/2.png"]
+  },
+  "cg": {
+    "name": "Congo",
+    "description": "Congo is a country located in Africa, known for its Congo River and equatorial forests.\n\nFrom its natural landscapes to its historic cities and local traditions, Congo offers a unique identity shaped by geography, culture, and history.\n\nCapital: Brazzaville\nRegion: Africa\nPopulation: Over 6 million inhabitants.",
+    "images": ["/images/countries/cg/1.png", "/images/countries/cg/2.png"]
+  },
+  "kp": {
+    "name": "North Korea",
+    "description": "North Korea is a country located in Asia, known for its mountain scenery and highly distinctive urban landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, North Korea offers a unique identity shaped by geography, culture, and history.\n\nCapital: Pyongyang\nRegion: Asia\nPopulation: Around 26 million inhabitants.",
+    "images": ["/images/countries/kp/1.png", "/images/countries/kp/2.png"]
+  },
+  "kr": {
+    "name": "South Korea",
+    "description": "South Korea is a country located in Asia, known for its modern cities, mountains, temples, and coastlines.\n\nFrom its natural landscapes to its historic cities and local traditions, South Korea offers a unique identity shaped by geography, culture, and history.\n\nCapital: Seoul\nRegion: Asia\nPopulation: Over 51 million inhabitants.",
+    "images": ["/images/countries/kr/1.png", "/images/countries/kr/2.png"]
+  },
+  "ci": {
+    "name": "Ivory Coast",
+    "description": "Ivory Coast is a country located in Africa, known for its Atlantic beaches, forests, and vibrant cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Ivory Coast offers a unique identity shaped by geography, culture, and history.\n\nCapital: Yamoussoukro\nRegion: Africa\nPopulation: Over 29 million inhabitants.",
+    "images": ["/images/countries/ci/1.png", "/images/countries/ci/2.png"]
+  },
+  "cr": {
+    "name": "Costa Rica",
+    "description": "Costa Rica is a country located in North America, known for its rainforests, volcanoes, and Pacific and Caribbean beaches.\n\nFrom its natural landscapes to its historic cities and local traditions, Costa Rica offers a unique identity shaped by geography, culture, and history.\n\nCapital: San José\nRegion: North America\nPopulation: Around 5 million inhabitants.",
+    "images": ["/images/countries/cr/1.png", "/images/countries/cr/2.png"]
+  },
+  "hr": {
+    "name": "Croatia",
+    "description": "Croatia is a country located in Europe, known for its Adriatic coastline and historic stone towns.\n\nFrom its natural landscapes to its historic cities and local traditions, Croatia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Zagreb\nRegion: Europe\nPopulation: Around 4 million inhabitants.",
+    "images": ["/images/countries/hr/1.png", "/images/countries/hr/2.png"]
+  },
+  "cu": {
+    "name": "Cuba",
+    "description": "Cuba is a country located in North America, known for its Caribbean culture, beaches, and colorful cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Cuba offers a unique identity shaped by geography, culture, and history.\n\nCapital: Havana\nRegion: North America\nPopulation: Over 11 million inhabitants.",
+    "images": ["/images/countries/cu/1.png", "/images/countries/cu/2.png"]
+  },
+  "dk": {
+    "name": "Denmark",
+    "description": "Denmark is a country located in Europe, known for its islands, design culture, and coastal cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Denmark offers a unique identity shaped by geography, culture, and history.\n\nCapital: Copenhagen\nRegion: Europe\nPopulation: Around 6 million inhabitants.",
+    "images": ["/images/countries/dk/1.png", "/images/countries/dk/2.png"]
+  },
+  "dm": {
+    "name": "Dominica",
+    "description": "Dominica is a country located in North America, known for its rainforests, waterfalls, and volcanic peaks.\n\nFrom its natural landscapes to its historic cities and local traditions, Dominica offers a unique identity shaped by geography, culture, and history.\n\nCapital: Roseau\nRegion: North America\nPopulation: Around 70,000 inhabitants.",
+    "images": ["/images/countries/dm/1.png", "/images/countries/dm/2.png"]
+  },
+  "do": {
+    "name": "Dominican Republic",
+    "description": "Dominican Republic is a country located in North America, known for its Caribbean beaches, mountains, and colonial heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Dominican Republic offers a unique identity shaped by geography, culture, and history.\n\nCapital: Santo Domingo\nRegion: North America\nPopulation: Over 11 million inhabitants.",
+    "images": ["/images/countries/do/1.png", "/images/countries/do/2.png"]
+  },
+  "ec": {
+    "name": "Ecuador",
+    "description": "Ecuador is a country located in South America, known for its Andes, Amazon rainforest, and Galápagos Islands.\n\nFrom its natural landscapes to its historic cities and local traditions, Ecuador offers a unique identity shaped by geography, culture, and history.\n\nCapital: Quito\nRegion: South America\nPopulation: Over 18 million inhabitants.",
+    "images": ["/images/countries/ec/1.png", "/images/countries/ec/2.png"]
+  },
+  "eg": {
+    "name": "Egypt",
+    "description": "Egypt is a country located in Africa, known for its Nile River, ancient monuments, and desert landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Egypt offers a unique identity shaped by geography, culture, and history.\n\nCapital: Cairo\nRegion: Africa\nPopulation: Over 110 million inhabitants.",
+    "images": ["/images/countries/eg/1.png", "/images/countries/eg/2.png"]
+  },
+  "sv": {
+    "name": "El Salvador",
+    "description": "El Salvador is a country located in North America, known for its volcanoes, Pacific beaches, and historic towns.\n\nFrom its natural landscapes to its historic cities and local traditions, El Salvador offers a unique identity shaped by geography, culture, and history.\n\nCapital: San Salvador\nRegion: North America\nPopulation: Over 6 million inhabitants.",
+    "images": ["/images/countries/sv/1.png", "/images/countries/sv/2.png"]
+  },
+  "ae": {
+    "name": "United Arab Emirates",
+    "description": "United Arab Emirates is a country located in Asia, known for its desert landscapes and futuristic skylines.\n\nFrom its natural landscapes to its historic cities and local traditions, United Arab Emirates offers a unique identity shaped by geography, culture, and history.\n\nCapital: Abu Dhabi\nRegion: Asia\nPopulation: Over 9 million inhabitants.",
+    "images": ["/images/countries/ae/1.png", "/images/countries/ae/2.png"]
+  },
+  "er": {
+    "name": "Eritrea",
+    "description": "Eritrea is a country located in Africa, known for its Red Sea coast and highland architecture.\n\nFrom its natural landscapes to its historic cities and local traditions, Eritrea offers a unique identity shaped by geography, culture, and history.\n\nCapital: Asmara\nRegion: Africa\nPopulation: Around 3.7 million inhabitants.",
+    "images": ["/images/countries/er/1.png", "/images/countries/er/2.png"]
+  },
+  "ee": {
+    "name": "Estonia",
+    "description": "Estonia is a country located in Europe, known for its Baltic coastline, forests, and medieval towns.\n\nFrom its natural landscapes to its historic cities and local traditions, Estonia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Tallinn\nRegion: Europe\nPopulation: Around 1.3 million inhabitants.",
+    "images": ["/images/countries/ee/1.png", "/images/countries/ee/2.png"]
+  },
+  "sz": {
+    "name": "Eswatini",
+    "description": "Eswatini is a country located in Africa, known for its mountain valleys and cultural traditions.\n\nFrom its natural landscapes to its historic cities and local traditions, Eswatini offers a unique identity shaped by geography, culture, and history.\n\nCapital: Mbabane\nRegion: Africa\nPopulation: Around 1.2 million inhabitants.",
+    "images": ["/images/countries/sz/1.png", "/images/countries/sz/2.png"]
+  },
+  "et": {
+    "name": "Ethiopia",
+    "description": "Ethiopia is a country located in Africa, known for its highlands, ancient churches, and unique landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Ethiopia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Addis Ababa\nRegion: Africa\nPopulation: Over 120 million inhabitants.",
+    "images": ["/images/countries/et/1.png", "/images/countries/et/2.png"]
+  },
+  "fj": {
+    "name": "Fiji",
+    "description": "Fiji is a country located in Oceania, known for its Pacific islands, lagoons, and coral reefs.\n\nFrom its natural landscapes to its historic cities and local traditions, Fiji offers a unique identity shaped by geography, culture, and history.\n\nCapital: Suva\nRegion: Oceania\nPopulation: Around 900,000 inhabitants.",
+    "images": ["/images/countries/fj/1.png", "/images/countries/fj/2.png"]
+  },
+  "ph": {
+    "name": "Philippines",
+    "description": "Philippines is a country located in Asia, known for its tropical islands, mountains, and vibrant cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Philippines offers a unique identity shaped by geography, culture, and history.\n\nCapital: Manila\nRegion: Asia\nPopulation: Over 110 million inhabitants.",
+    "images": ["/images/countries/ph/1.png", "/images/countries/ph/2.png"]
+  },
+  "fi": {
+    "name": "Finland",
+    "description": "Finland is a country located in Europe, known for its forests, lakes, and northern lights.\n\nFrom its natural landscapes to its historic cities and local traditions, Finland offers a unique identity shaped by geography, culture, and history.\n\nCapital: Helsinki\nRegion: Europe\nPopulation: Around 5.6 million inhabitants.",
+    "images": ["/images/countries/fi/1.png", "/images/countries/fi/2.png"]
+  },
+  "fr": {
+    "name": "France",
+    "description": "France is a country located in Europe, known for its historic cities, countryside, mountains, and coastlines.\n\nFrom its natural landscapes to its historic cities and local traditions, France offers a unique identity shaped by geography, culture, and history.\n\nCapital: Paris\nRegion: Europe\nPopulation: Over 68 million inhabitants.",
+    "images": ["/images/countries/fr/1.png", "/images/countries/fr/2.png"]
+  },
+  "de": {
+    "name": "Germany",
+    "description": "Germany is a country located in Europe, known for its historic cities, forests, rivers, and modern culture.\n\nFrom its natural landscapes to its historic cities and local traditions, Germany offers a unique identity shaped by geography, culture, and history.\n\nCapital: Berlin\nRegion: Europe\nPopulation: Over 84 million inhabitants.",
+    "images": ["/images/countries/de/1.png", "/images/countries/de/2.png"]
+  },
+  "gh": {
+    "name": "Ghana",
+    "description": "Ghana is a country located in Africa, known for its Atlantic coast, markets, and rich cultural heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Ghana offers a unique identity shaped by geography, culture, and history.\n\nCapital: Accra\nRegion: Africa\nPopulation: Over 34 million inhabitants.",
+    "images": ["/images/countries/gh/1.png", "/images/countries/gh/2.png"]
+  },
+  "jm": {
+    "name": "Jamaica",
+    "description": "Jamaica is a country located in North America, known for its Caribbean mountains, beaches, and music culture.\n\nFrom its natural landscapes to its historic cities and local traditions, Jamaica offers a unique identity shaped by geography, culture, and history.\n\nCapital: Kingston\nRegion: North America\nPopulation: Around 2.8 million inhabitants.",
+    "images": ["/images/countries/jm/1.png", "/images/countries/jm/2.png"]
+  },
+  "jp": {
+    "name": "Japan",
+    "description": "Japan is a country located in Asia, known for its temples, mountains, islands, and futuristic cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Japan offers a unique identity shaped by geography, culture, and history.\n\nCapital: Tokyo\nRegion: Asia\nPopulation: Over 120 million inhabitants.",
+    "images": ["/images/countries/jp/1.png", "/images/countries/jp/2.png"]
+  },
+  "jo": {
+    "name": "Jordan",
+    "description": "Jordan is a country located in Asia, known for its desert landscapes and ancient archaeological sites.\n\nFrom its natural landscapes to its historic cities and local traditions, Jordan offers a unique identity shaped by geography, culture, and history.\n\nCapital: Amman\nRegion: Asia\nPopulation: Over 11 million inhabitants.",
+    "images": ["/images/countries/jo/1.png", "/images/countries/jo/2.png"]
+  },
+  "gr": {
+    "name": "Greece",
+    "description": "Greece is a country located in Europe, known for its islands, ancient ruins, and Mediterranean landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Greece offers a unique identity shaped by geography, culture, and history.\n\nCapital: Athens\nRegion: Europe\nPopulation: Over 10 million inhabitants.",
+    "images": ["/images/countries/gr/1.png", "/images/countries/gr/2.png"]
+  },
+  "in": {
+    "name": "India",
+    "description": "India is a country located in Asia, known for its Himalayas, deserts, coasts, and historic cities.\n\nFrom its natural landscapes to its historic cities and local traditions, India offers a unique identity shaped by geography, culture, and history.\n\nCapital: New Delhi\nRegion: Asia\nPopulation: Over 1.4 billion inhabitants.",
+    "images": ["/images/countries/in/1.png", "/images/countries/in/2.png"]
+  },
+  "id": {
+    "name": "Indonesia",
+    "description": "Indonesia is a country located in Asia, known for its volcanic islands, rainforests, and beaches.\n\nFrom its natural landscapes to its historic cities and local traditions, Indonesia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Jakarta\nRegion: Asia\nPopulation: Over 270 million inhabitants.",
+    "images": ["/images/countries/id/1.png", "/images/countries/id/2.png"]
+  },
+  "ir": {
+    "name": "Iran",
+    "description": "Iran is a country located in Asia, known for its mountains, deserts, and ancient Persian heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Iran offers a unique identity shaped by geography, culture, and history.\n\nCapital: Tehran\nRegion: Asia\nPopulation: Over 88 million inhabitants.",
+    "images": ["/images/countries/ir/1.png", "/images/countries/ir/2.png"]
+  },
+  "iq": {
+    "name": "Iraq",
+    "description": "Iraq is a country located in Asia, known for its Mesopotamian history and river landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Iraq offers a unique identity shaped by geography, culture, and history.\n\nCapital: Baghdad\nRegion: Asia\nPopulation: Over 45 million inhabitants.",
+    "images": ["/images/countries/iq/1.png", "/images/countries/iq/2.png"]
+  },
+  "ie": {
+    "name": "Ireland",
+    "description": "Ireland is a country located in Europe, known for its green countryside, cliffs, and historic towns.\n\nFrom its natural landscapes to its historic cities and local traditions, Ireland offers a unique identity shaped by geography, culture, and history.\n\nCapital: Dublin\nRegion: Europe\nPopulation: Around 5 million inhabitants.",
+    "images": ["/images/countries/ie/1.png", "/images/countries/ie/2.png"]
+  },
+  "is": {
+    "name": "Iceland",
+    "description": "Iceland is a country located in Europe, known for its volcanoes, glaciers, waterfalls, and geothermal landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Iceland offers a unique identity shaped by geography, culture, and history.\n\nCapital: Reykjavík\nRegion: Europe\nPopulation: Around 380,000 inhabitants.",
+    "images": ["/images/countries/is/1.png", "/images/countries/is/2.png"]
+  },
+  "il": {
+    "name": "Israel",
+    "description": "Israel is a country located in Asia, known for its Mediterranean coast, deserts, and ancient cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Israel offers a unique identity shaped by geography, culture, and history.\n\nCapital: Jerusalem\nRegion: Asia\nPopulation: Over 9 million inhabitants.",
+    "images": ["/images/countries/il/1.png", "/images/countries/il/2.png"]
+  },
+  "it": {
+    "name": "Italy",
+    "description": "Italy is a country located in Europe, known for its art cities, mountains, coastlines, and Mediterranean culture.\n\nFrom its natural landscapes to its historic cities and local traditions, Italy offers a unique identity shaped by geography, culture, and history.\n\nCapital: Rome\nRegion: Europe\nPopulation: Over 58 million inhabitants.",
+    "images": ["/images/countries/it/1.png", "/images/countries/it/2.png"]
+  },
+  "mx": {
+    "name": "Mexico",
+    "description": "Mexico is a country located in North America, known for its ancient ruins, deserts, mountains, and beaches.\n\nFrom its natural landscapes to its historic cities and local traditions, Mexico offers a unique identity shaped by geography, culture, and history.\n\nCapital: Mexico City\nRegion: North America\nPopulation: Over 129 million inhabitants.",
+    "images": ["/images/countries/mx/1.png", "/images/countries/mx/2.png"]
+  },
+  "nl": {
+    "name": "Netherlands",
+    "description": "Netherlands is a country located in Europe, known for its canals, windmills, cycling cities, and flat landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Netherlands offers a unique identity shaped by geography, culture, and history.\n\nCapital: Amsterdam\nRegion: Europe\nPopulation: Over 17 million inhabitants.",
+    "images": ["/images/countries/nl/1.png", "/images/countries/nl/2.png"]
+  },
+  "no": {
+    "name": "Norway",
+    "description": "Norway is a country located in Europe, known for its fjords, mountains, and Arctic scenery.\n\nFrom its natural landscapes to its historic cities and local traditions, Norway offers a unique identity shaped by geography, culture, and history.\n\nCapital: Oslo\nRegion: Europe\nPopulation: Around 5.5 million inhabitants.",
+    "images": ["/images/countries/no/1.png", "/images/countries/no/2.png"]
+  },
+  "nz": {
+    "name": "New Zealand",
+    "description": "New Zealand is a country located in Oceania, known for its mountains, lakes, coastlines, and volcanic landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, New Zealand offers a unique identity shaped by geography, culture, and history.\n\nCapital: Wellington\nRegion: Oceania\nPopulation: Around 5 million inhabitants.",
+    "images": ["/images/countries/nz/1.png", "/images/countries/nz/2.png"]
+  },
+  "pl": {
+    "name": "Poland",
+    "description": "Poland is a country located in Europe, known for its historic cities, forests, and Baltic coast.\n\nFrom its natural landscapes to its historic cities and local traditions, Poland offers a unique identity shaped by geography, culture, and history.\n\nCapital: Warsaw\nRegion: Europe\nPopulation: Over 37 million inhabitants.",
+    "images": ["/images/countries/pl/1.png", "/images/countries/pl/2.png"]
+  },
+  "pt": {
+    "name": "Portugal",
+    "description": "Portugal is a country located in Europe, known for its Atlantic coast, historic towns, and warm landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Portugal offers a unique identity shaped by geography, culture, and history.\n\nCapital: Lisbon\nRegion: Europe\nPopulation: Over 10 million inhabitants.",
+    "images": ["/images/countries/pt/1.png", "/images/countries/pt/2.png"]
+  },
+  "gb": {
+    "name": "United Kingdom",
+    "description": "United Kingdom is a country located in Europe, known for its historic cities, countryside, and dramatic coastlines.\n\nFrom its natural landscapes to its historic cities and local traditions, United Kingdom offers a unique identity shaped by geography, culture, and history.\n\nCapital: London\nRegion: Europe\nPopulation: Over 67 million inhabitants.",
+    "images": ["/images/countries/gb/1.png", "/images/countries/gb/2.png"]
+  },
+  "ro": {
+    "name": "Romania",
+    "description": "Romania is a country located in Europe, known for its Carpathian mountains, castles, and medieval towns.\n\nFrom its natural landscapes to its historic cities and local traditions, Romania offers a unique identity shaped by geography, culture, and history.\n\nCapital: Bucharest\nRegion: Europe\nPopulation: Around 19 million inhabitants.",
+    "images": ["/images/countries/ro/1.png", "/images/countries/ro/2.png"]
+  },
+  "ru": {
+    "name": "Russia",
+    "description": "Russia is a country located in Europe and Asia, known for its vast forests, tundra, cities, and steppe landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Russia offers a unique identity shaped by geography, culture, and history.\n\nCapital: Moscow\nRegion: Europe and Asia\nPopulation: Over 140 million inhabitants.",
+    "images": ["/images/countries/ru/1.png", "/images/countries/ru/2.png"]
+  },
+  "es": {
+    "name": "Spain",
+    "description": "Spain is a country located in Europe, known for its Mediterranean beaches, historic cities, and mountains.\n\nFrom its natural landscapes to its historic cities and local traditions, Spain offers a unique identity shaped by geography, culture, and history.\n\nCapital: Madrid\nRegion: Europe\nPopulation: Over 48 million inhabitants.",
+    "images": ["/images/countries/es/1.png", "/images/countries/es/2.png"]
+  },
+  "se": {
+    "name": "Sweden",
+    "description": "Sweden is a country located in Europe, known for its forests, lakes, islands, and Nordic cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Sweden offers a unique identity shaped by geography, culture, and history.\n\nCapital: Stockholm\nRegion: Europe\nPopulation: Over 10 million inhabitants.",
+    "images": ["/images/countries/se/1.png", "/images/countries/se/2.png"]
+  },
+  "ch": {
+    "name": "Switzerland",
+    "description": "Switzerland is a country located in Europe, known for its Alpine peaks, lakes, and elegant towns.\n\nFrom its natural landscapes to its historic cities and local traditions, Switzerland offers a unique identity shaped by geography, culture, and history.\n\nCapital: Bern\nRegion: Europe\nPopulation: Around 9 million inhabitants.",
+    "images": ["/images/countries/ch/1.png", "/images/countries/ch/2.png"]
+  },
+  "tr": {
+    "name": "Turkey",
+    "description": "Turkey is a country located in Asia and Europe, known for its ancient cities, coastlines, and Anatolian landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Turkey offers a unique identity shaped by geography, culture, and history.\n\nCapital: Ankara\nRegion: Asia and Europe\nPopulation: Over 85 million inhabitants.",
+    "images": ["/images/countries/tr/1.png", "/images/countries/tr/2.png"]
+  },
+  "ua": {
+    "name": "Ukraine",
+    "description": "Ukraine is a country located in Europe, known for its wide plains, historic cities, and Black Sea coast.\n\nFrom its natural landscapes to its historic cities and local traditions, Ukraine offers a unique identity shaped by geography, culture, and history.\n\nCapital: Kyiv\nRegion: Europe\nPopulation: Over 36 million inhabitants.",
+    "images": ["/images/countries/ua/1.png", "/images/countries/ua/2.png"]
+  },
+  "uy": {
+    "name": "Uruguay",
+    "description": "Uruguay is a country located in South America, known for its Atlantic beaches, rolling plains, and relaxed cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Uruguay offers a unique identity shaped by geography, culture, and history.\n\nCapital: Montevideo\nRegion: South America\nPopulation: Around 3.4 million inhabitants.",
+    "images": ["/images/countries/uy/1.png", "/images/countries/uy/2.png"]
+  },
   "us": {
     "name": "United States",
     "description": "The United States of America is a vast and diverse country located in North America, known for its cultural influence, economic power, and iconic landscapes.\n\nFrom the bustling streets of New York City to the natural wonders of the Grand Canyon, the USA is a land of contrasts.\n\nCapital: Washington, D.C.\nRegion: North America\nPopulation: Over 330 million inhabitants.",
     "images": ["/images/countries/us/1.png", "/images/countries/us/2.png"]
   },
-
-  "za": { "name": "South Africa", "description": "", "images": [] },
-  "vn": { "name": "Vietnam", "description": "", "images": [] },
-  "zw": { "name": "Zimbabwe", "description": "", "images": [] },
-
-  "va": { "name": "Vatican City", "description": "", "images": [] },
-  "xk": { "name": "Kosovo", "description": "", "images": [] }
+  "za": {
+    "name": "South Africa",
+    "description": "South Africa is a country located in Africa, known for its coastlines, mountains, cities, and wildlife reserves.\n\nFrom its natural landscapes to its historic cities and local traditions, South Africa offers a unique identity shaped by geography, culture, and history.\n\nCapital: Pretoria\nRegion: Africa\nPopulation: Over 60 million inhabitants.",
+    "images": ["/images/countries/za/1.png", "/images/countries/za/2.png"]
+  },
+  "vn": {
+    "name": "Vietnam",
+    "description": "Vietnam is a country located in Asia, known for its rice terraces, coastlines, rivers, and historic cities.\n\nFrom its natural landscapes to its historic cities and local traditions, Vietnam offers a unique identity shaped by geography, culture, and history.\n\nCapital: Hanoi\nRegion: Asia\nPopulation: Over 100 million inhabitants.",
+    "images": ["/images/countries/vn/1.png", "/images/countries/vn/2.png"]
+  },
+  "zw": {
+    "name": "Zimbabwe",
+    "description": "Zimbabwe is a country located in Africa, known for its Victoria Falls, savanna, and highland landscapes.\n\nFrom its natural landscapes to its historic cities and local traditions, Zimbabwe offers a unique identity shaped by geography, culture, and history.\n\nCapital: Harare\nRegion: Africa\nPopulation: Over 16 million inhabitants.",
+    "images": ["/images/countries/zw/1.png", "/images/countries/zw/2.png"]
+  },
+  "va": {
+    "name": "Vatican City",
+    "description": "Vatican City is a country located in Europe, known for its St. Peter's Basilica and Renaissance heritage.\n\nFrom its natural landscapes to its historic cities and local traditions, Vatican City offers a unique identity shaped by geography, culture, and history.\n\nCapital: Vatican City\nRegion: Europe\nPopulation: Around 800 inhabitants.",
+    "images": ["/images/countries/va/1.png", "/images/countries/va/2.png"]
+  },
+  "xk": {
+    "name": "Kosovo",
+    "description": "Kosovo is a country located in Europe, known for its Balkan mountains and historic towns.\n\nFrom its natural landscapes to its historic cities and local traditions, Kosovo offers a unique identity shaped by geography, culture, and history.\n\nCapital: Pristina\nRegion: Europe\nPopulation: Around 1.8 million inhabitants.",
+    "images": ["/images/countries/xk/1.png", "/images/countries/xk/2.png"]
+  },
+  "af": {
+    "name": "Afghanistan",
+    "description": "Afghanistan is a country located in Asia, known for its Hindu Kush mountains and ancient trade routes.\n\nFrom its natural landscapes to its historic cities and local traditions, Afghanistan offers a unique identity shaped by geography, culture, and history.\n\nCapital: Kabul\nRegion: Asia\nPopulation: Over 40 million inhabitants.",
+    "images": ["/images/countries/af/1.png", "/images/countries/af/2.png"]
+  },
+  "al": {
+    "name": "Albania",
+    "description": "Albania is a country located in Europe, known for its Adriatic and Ionian coastlines.\n\nFrom its natural landscapes to its historic cities and local traditions, Albania offers a unique identity shaped by geography, culture, and history.\n\nCapital: Tirana\nRegion: Europe\nPopulation: Around 2.8 million inhabitants.",
+    "images": ["/images/countries/al/1.png", "/images/countries/al/2.png"]
+  }
 }
