@@ -63,206 +63,23 @@ const getCountryCode = (polygon) => {
 
   const iso3ToIso2Map = {
     usa: "us",
-    afg: "af",
-    alb: "al",
-    dza: "dz",
-    and: "ad",
-    ago: "ao",
-    atg: "ag",
-    arg: "ar",
-    arm: "am",
-    aus: "au",
-    aut: "at",
-    aze: "az",
-    bhs: "bs",
-    bhr: "bh",
-    bgd: "bd",
-    brb: "bb",
-    bel: "be",
-    blz: "bz",
-    ben: "bj",
-    btn: "bt",
-    blr: "by",
-    bol: "bo",
-    bih: "ba",
-    bwa: "bw",
-    bra: "br",
-    brn: "bn",
-    bgr: "bg",
-    bfa: "bf",
-    bdi: "bi",
-    cpv: "cv",
-    khm: "kh",
-    cmr: "cm",
-    can: "ca",
-    caf: "cf",
-    tcd: "td",
-    chl: "cl",
-    chn: "cn",
-    col: "co",
-    com: "km",
-    cog: "cg",
-    cod: "cd",
-    cri: "cr",
-    civ: "ci",
-    hrv: "hr",
-    cub: "cu",
-    cyp: "cy",
-    cze: "cz",
-    dnk: "dk",
-    dma: "dm",
-    dom: "do",
-    ecu: "ec",
-    egy: "eg",
-    slv: "sv",
-    are: "ae",
-    eri: "er",
-    est: "ee",
-    swz: "sz",
-    eth: "et",
-    fji: "fj",
-    phl: "ph",
-    fin: "fi",
-    fra: "fr",
-    gab: "ga",
-    gmb: "gm",
-    geo: "ge",
-    deu: "de",
-    gha: "gh",
-    jam: "jm",
-    jpn: "jp",
-    dji: "dj",
-    jor: "jo",
-    grc: "gr",
-    grd: "gd",
-    gtm: "gt",
-    gin: "gn",
-    gnb: "gw",
-    gnq: "gq",
-    guy: "gy",
-    hti: "ht",
-    hnd: "hn",
-    ind: "in",
-    idn: "id",
-    irn: "ir",
-    irq: "iq",
-    irl: "ie",
-    isl: "is",
-    isr: "il",
     ita: "it",
-    kaz: "kz",
-    ken: "ke",
-    kgz: "kg",
-    kir: "ki",
-    kwt: "kw",
-    lao: "la",
-    lso: "ls",
-    lva: "lv",
-    lbn: "lb",
-    lbr: "lr",
-    lby: "ly",
-    lie: "li",
-    ltu: "lt",
-    lux: "lu",
-    mdg: "mg",
-    mwi: "mw",
-    mys: "my",
-    mdv: "mv",
-    mli: "ml",
-    mlt: "mt",
-    mar: "ma",
-    mhl: "mh",
-    mrt: "mr",
-    mus: "mu",
-    mex: "mx",
-    fsm: "fm",
-    mda: "md",
-    mco: "mc",
-    mng: "mn",
-    mne: "me",
-    moz: "mz",
-    mkd: "mk",
-    mmr: "mm",
-    nam: "na",
-    nru: "nr",
-    npl: "np",
-    nic: "ni",
-    ner: "ne",
-    nga: "ng",
-    nor: "no",
-    nzl: "nz",
-    omn: "om",
-    nld: "nl",
-    पाक: "pk",
-    pak: "pk",
-    plw: "pw",
-    pan: "pa",
-    png: "pg",
-    pry: "py",
-    per: "pe",
-    pol: "pl",
-    prt: "pt",
-    qat: "qa",
-    gbr: "gb",
-    rou: "ro",
-    rwa: "rw",
-    rus: "ru",
-    kna: "kn",
-    lca: "lc",
-    vct: "vc",
-    slb: "sb",
-    wsm: "ws",
-    smr: "sm",
-    stp: "st",
-    sen: "sn",
-    srb: "rs",
-    syc: "sc",
-    sle: "sl",
-    sgp: "sg",
-    syr: "sy",
-    svk: "sk",
-    svn: "si",
-    som: "so",
+    fra: "fr",
+    deu: "de",
     esp: "es",
-    lka: "lk",
-    zaf: "za",
-    sdn: "sd",
-    ssd: "ss",
-    sur: "sr",
-    swe: "se",
-    che: "ch",
-    tjk: "tj",
-    tza: "tz",
-    tha: "th",
-    tls: "tl",
-    tgo: "tg",
-    ton: "to",
-    tto: "tt",
-    tun: "tn",
-    tur: "tr",
-    tkm: "tm",
-    tuv: "tv",
-    ukr: "ua",
-    uga: "ug",
-    hun: "hu",
-    ury: "uy",
-    uzb: "uz",
-    vut: "vu",
-    ven: "ve",
-    vnm: "vn",
-    yem: "ye",
-    zmb: "zm",
-    zwe: "zw",
-    vat: "va",
-    pse: "ps",
-    xkx: "xk",
-    prk: "kp",
-    kor: "kr",
+    gbr: "gb",
+    jpn: "jp",
+    chn: "cn",
+    ind: "in",
+    bra: "br",
+    arg: "ar",
+    can: "ca",
+    aus: "au",
+    rus: "ru",
   };
 
   if (normalized.length === 2) return normalized;
   if (normalized.length === 3) return iso3ToIso2Map[normalized] || "";
-
   return "";
 };
 
@@ -274,6 +91,31 @@ const GlobeViewer = ({
 }) => {
   const globeRef = useRef();
   const [countries, setCountries] = useState([]);
+  const [globeSize, setGlobeSize] = useState({
+    width: 760,
+    height: 430,
+  });
+
+  useEffect(() => {
+    const updateSize = () => {
+      const width = Math.min(window.innerWidth - 32, 820);
+
+      const availableHeight =
+        window.innerHeight < 760
+          ? window.innerHeight * 0.46
+          : window.innerHeight * 0.52;
+
+      setGlobeSize({
+        width,
+        height: Math.min(availableHeight, 500),
+      });
+    };
+
+    updateSize();
+    window.addEventListener("resize", updateSize);
+
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
 
   useEffect(() => {
     const loadCountries = async () => {
@@ -281,7 +123,6 @@ const GlobeViewer = ({
         const response = await axios.get(
           "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
         );
-
         setCountries(response.data.features || []);
       } catch (error) {
         console.error("Errore caricamento geojson:", error);
@@ -294,10 +135,9 @@ const GlobeViewer = ({
   useEffect(() => {
     if (!globeRef.current) return;
 
-    globeRef.current.pointOfView({ altitude: 2.1 });
+    globeRef.current.pointOfView({ altitude: 2.2 });
 
     const controls = globeRef.current.controls();
-
     controls.autoRotate = isSpinning;
     controls.autoRotateSpeed = 50;
     controls.enablePan = false;
@@ -316,8 +156,8 @@ const GlobeViewer = ({
     <div className="globe-wrapper">
       <Globe
         ref={globeRef}
-        width={900}
-        height={580}
+        width={globeSize.width}
+        height={globeSize.height}
         backgroundColor="rgba(0,0,0,0)"
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
         polygonsData={countries}
@@ -347,12 +187,6 @@ const GlobeViewer = ({
           const countryName = getCountryName(polygon);
           const countryCode = getCountryCode(polygon);
           const center = getPolygonCenter(polygon?.geometry);
-
-          console.log("CLICK COUNTRY:", {
-            countryName,
-            countryCode,
-            properties: polygon?.properties,
-          });
 
           onCountryClick({
             countryName,

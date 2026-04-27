@@ -1,8 +1,9 @@
 .app-navbar {
+  flex-shrink: 0;
   position: sticky;
   top: 0;
   z-index: 50;
-  padding: 1rem 0;
+  padding: 0.65rem 0;
   background: rgba(28, 19, 58, 0.82);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -19,7 +20,7 @@
   font-family: "Luckiest Guy", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 2rem;
+  font-size: clamp(1.45rem, 3vw, 2rem);
   letter-spacing: 0.08em;
   color: #ffffff;
   text-shadow:

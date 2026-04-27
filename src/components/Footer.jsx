@@ -5,12 +5,17 @@ const Footer = () => {
   return (
     <footer className="app-footer">
       <div className="footer-content">
-        <img
-          src="/syndycore-img.jpeg"
-          alt="Syndycore"
-          className="footer-logo"
-        />
-
+        <a
+          href="https://syndycore.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/syndycore-img.jpeg"
+            alt="Syndycore"
+            className="footer-logo"
+          />
+        </a>
         <p className="footer-text">
           © All rights reserved — Developed by <strong>Syndycore Team</strong>
         </p>
